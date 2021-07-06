@@ -13,12 +13,8 @@ setup(
     long_description=readme,
     packages=setuptools.find_packages(),
     install_requires=[
-        # 'gutenbergdammit==0.0.2',
-        'wordfilter'
+        'wordfilter==0.2.6.2'
     ],
-    # dependency_links=[
-    #     'https://github.com/aparrish/gutenberg-dammit/archive/master.zip#egg=gutenbergdammit-0.0.2'
-    # ],
     classifiers=[
         'Development Status :: 3 - Alpha',
         "Intended Audience :: Education",
