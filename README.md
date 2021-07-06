@@ -89,10 +89,12 @@ If you're interested in building your own version from scratch, read on.
 This repository includes a script to build the Gutenberg Poetry corpus from the
 files included in [Gutenberg,
 dammit](https://github.com/aparrish/gutenberg-dammit/). First, download the
-*Gutenberg, dammit* archive. Then install this package, like so:
+*Gutenberg, dammit* archive. Then install [Gutenberg,
+dammit](https://github.com/aparrish/gutenberg-dammit/) and this package, like so:
 
 ```bash
-pip install --process-dependency-links https://github.com/aparrish/gutenberg-poetry-corpus/archive/master.zip
+pip install https://github.com/aparrish/gutenberg-dammit/archive/master.zip
+pip install https://github.com/bmichele/gutenberg-poetry-corpus/archive/master.zip
 ```
 
 You can then run the following command to produce your own version of the
